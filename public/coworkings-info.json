@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Chasopys",
+    "description": "Maybe the most popular places. Every week it holds several events, mostly oriented on enterpreneurship.",
+    "workplace": "separate floor for permanent residents. Also you can rent a flexible workplace and pay for time.",
+    "price": 3200 ,
+    "address": "Lva Tolstoho St, 3",
+    "website": "www.chasopys.ua",
+    "images":["img/coworkings/chasopys.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Freud-House",
+    "description": "Maybe the most popular places. Every week it holds several events, mostly oriented on enterpreneurship.",
+    "workplace": "separate floor for permanent residents. Also you can rent a flexible workplace and pay for time.",
+    "price": 1790,
+    "address": "Konstantynivska St, 21(nearest subway station Kontraktova Plosca)",
+    "website": "http://www.freud-house.com.ua/",
+    "images":["img/coworkings/freudhouse.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "KievWorking",
+    "description": "Maybe the most popular places. Every week it holds several events, mostly oriented on enterpreneurship.",
+    "workplace": "separate floor for permanent residents. Also you can rent a flexible workplace and pay for time.",
+    "price": 2500,
+    "address": "Moskovska St, 27/5th floor",
+    "website": "http://kyivworking.com/",
+    "images":["img/coworkings/kievworking.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "iHub",
+    "description": "Maybe the most popular places. Every week it holds several events, mostly oriented on enterpreneurship.",
+    "workplace": "separate floor for permanent residents. Also you can rent a flexible workplace and pay for time.",
+    "price": 1599 ,
+    "address": "Rybalska St, 22(nearest subway station Klovska)",
+    "website": "http://kyiv.ihub.com.ua",
+    "images":["img/coworkings/ihub.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Scastie Hub",
+    "description": "Maybe the most popular places. Every week it holds several events, mostly oriented on enterpreneurship.",
+    "workplace": "separate floor for permanent residents. Also you can rent a flexible workplace and pay for time.",
+    "price": 1700 ,
+    "address": "Saksaganskogo St, 70А(nearest subway station Universytet)",
+    "website": "http://schastiehub.com/",
+    "images":["img/coworkings/scastie.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Platforma",
+    "description": "Maybe the most popular places. Every week it holds several events, mostly oriented on enterpreneurship.",
+    "workplace": "separate floor for permanent residents. Also you can rent a flexible workplace and pay for time.",
+    "price": 1800,
+    "address": "Bilomorska St, 1(nearest subway station Lesnaya)",
+    "website": "https://www.facebook.com/coworkingplatforma?fref=ts",
+    "images":["img/coworkings/platforma.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Vremeni Vagon",
+    "description": "Maybe the most popular places. Every week it holds several events, mostly oriented on enterpreneurship.",
+    "workplace": "separate floor for permanent residents. Also you can rent a flexible workplace and pay for time.",
+    "price": 2000 ,
+    "address": "O. Mishugi St, 12(nearest subway station Pozniaky)",
+    "website": "vremenivagon.com.ua/",
+    "images":["img/coworkings/vremenivagon.jpg"],
+    "reviews": []
+  }
+]

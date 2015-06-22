@@ -1,0 +1,41 @@
+.ng-invalid.ng-dirty {
+  border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+  border-color: #78FA89;
+}
+
+.current img {
+	max-width: 400px;
+}
+
+.nav.nav-pills {
+	margin-top: 10px;
+}
+
+.list-group-item {
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.menu {
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #eee;
+}
+
+footer {
+	background: #145C9E;
+	min-height: 200px;
+	color: #fff;
+	padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+

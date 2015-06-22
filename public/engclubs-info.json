@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Блог: инструкция для чайников",
+    "description": "Семинар для владельцев малого бизнеса, специалистов консалтинга (тренера, коучи, психологи), которые хотят увеличить видимость своего бренда.",
+    "price": 49,
+    "place": "Bibliotec smart cafe",
+    "date": "16 июня",
+    "time": "19:30",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik", 
+    "images": ["img/chasopys/chassopys04.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "English Speaking CLub",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 0,
+    "place": "Puzata Hata near Khreschatic",
+    "date": "Every Tuesday",
+    "time": "19:00-21:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/chasopys/chassopys02.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "English Speaking CLub",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 0,
+    "place": "Puzata Hata near Khreschatic",
+    "date": "Every Tuesday",
+    "time": "19:00-21:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/chasopys/chassopys02.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "English Speaking CLub",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 0,
+    "place": "Puzata Hata near Khreschatic",
+    "date": "Every Tuesday",
+    "time": "19:00-21:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/chasopys/chassopys02.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "English Speaking CLub",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 0,
+    "place": "Puzata Hata near Khreschatic",
+    "date": "Every Tuesday",
+    "time": "19:00-21:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/chasopys/chassopys02.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "English Speaking CLub",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 0,
+    "place": "Puzata Hata near Khreschatic",
+    "date": "Every Tuesday",
+    "time": "19:00-21:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/chasopys/chassopys02.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "English Speaking CLub",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 0,
+    "place": "Puzata Hata near Khreschatic",
+    "date": "Every Tuesday",
+    "time": "19:00-21:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/chasopys/chassopys02.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Zircon",
+    "description": "Zircon is our most coveted and sought after gem. You will pay much to be the proud owner of this gorgeous and high shine gem.",
+    "shine": 70,
+    "price": 1100,
+    "rarity": 2,
+    "color": "#000",
+    "faces": 6,
+    "images": [
+      "images/gem-06.gif",
+      "images/gem-07.gif",
+      "images/gem-08.gif"
+    ],
+    "reviews": []
+  }
+]

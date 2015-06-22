@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Mafia Kiev Region CLub",
+    "description": "Mafia club in Chasopys.",
+    "price": 180,
+    "place": "Chasopys",
+    "date": "Every Friday",
+    "time": "19:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/mafiaclubs/mafiakievregion.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Mafia Kava",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 50,
+    "place": "Differs, depending on day of the week",
+    "date": "Every Tuesday",
+    "time": "19:00-21:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/mafiaclubs/mafiakava.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Mafia family club",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 50,
+    "place": "Puzata Hata near Khreschatic",
+    "date": "Tuesday, Wednesday, Friday, Saturday",
+    "time": "19:00-till late night",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/mafiaclubs/mafiafamily.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Freud House Mafia Club",
+    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
+    "price": 70,
+    "place": "Freud House",
+    "date": "Every Thursday",
+    "time": "19:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
+    "images":["img/mafiaclubs/freudhouse.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Big Ben Mafia club",
+    "description": "Three tables for play. Free mafia school every Thursday. Working 6 days a week!",
+    "price": "",
+    "place": "Big Ben Pub (Dream Town 1)",
+    "date": "from Monday to Saturday",
+    "time": "19:00",
+    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik", 
+    "images": ["img/mafiaclubs/bigben.jpg"],
+    "reviews": []
+  }
+]

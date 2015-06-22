@@ -1,0 +1,19 @@
+<div class="container" ng-controller="EngclubsController as eventList">
+      <!--  Events Container  -->
+      <div class="list-group row clearfix">
+        <!--  Event Container  -->
+        <div class="list-group-item col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1" ng-repeat="engclub in eventList.engclubs" ng-model="search">
+          <h3>{{engclub.name}} <em class="pull-right">{{engclub.price | currency: "&#8372;"}}</em></h3>
+          <h5 class="text-muted">{{engclub.date}}</h5>
+          <h5 class="text-muted">{{engclub.place}}</h5>
+
+          <!-- Image Gallery  -->
+          <engclub-gallery class="img-responsive"> </engclub-gallery>
+
+          <!-- Event Tabs  -->
+          <engclub-tabs></engclub-tabs> 
+        </div>
+
+      </div>
+      
+    </div>

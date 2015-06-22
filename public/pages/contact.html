@@ -1,0 +1,70 @@
+<div class="container">
+<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+    
+    <!-- PAGE HEADER -->
+    <div class="page-header"><h1>Propose your event!</h1></div>
+   
+    <!-- FORM -->
+    <!-- pass in the variable if our form is valid or invalid -->
+    <form name="userForm" ng-submit="submitForm(userForm.$valid)" novalidate> <!-- novalidate prevents HTML5 validation since we will be validating ourselves -->
+
+        <!-- NAME -->
+        <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }">
+            <label>Your name</label>
+            <input type="text" name="name" class="form-control" ng-model="name" required>
+            <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">You name is required.</p>
+        </div>
+
+        <!-- EMAIL -->
+        <div class="form-group" ng-class = "{ 'has-error': userForm.email.$invalid && !userForm.email.$pristine }">
+            <label>Your email</label>
+            <input type="email" name="email" class="form-control" ng-model="email">
+            <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Enter a valid email.</p>
+        </div>
+		<h4>Event info</h4>
+        <!-- Place -->
+        <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }">
+            <label>Place</label>
+            <input type="text" name="name" class="form-control" ng-model="name" required>
+            <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Place is required.</p>
+        </div>
+
+        <!-- Price -->
+        <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }">
+            <label>Price</label>
+            <input type="text" name="price" class="form-control" ng-model="event.price">
+          
+        </div>
+
+        <!-- Description -->
+        <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control" ng-model="event.description" required>
+            <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Description is required.</p>
+        </div>
+
+        <!-- Description -->
+        <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }">
+            <label>Website</label>
+            <input type="text" name="description" class="form-control" ng-model="event.description" placeholder="Write event's website/social link" required>
+            <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Website is required.</p>
+        </div>
+
+
+        <!-- USERNAME -->
+        <div class="form-group" ng-class = "{ 'has-error': userForm.username.$invalid && !userForm.username.$pristine  }">
+            <label>Username</label>
+            <input type="text" name="username" class="form-control" ng-model="user.username" ng-minlength="3" ng-maxlength="8">
+            <p ng-show="userForm.username.$error.minlength" class="help-block">Username is too short.</p>
+            <p ng-show="userForm.username.$error.maxlength" class="help-block">Username is too long.</p>
+        </div>
+        
+        
+        
+        <!-- SUBMIT BUTTON -->
+        <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
+        
+    </form>
+
+</div><!-- col-sm-8 -->
+</div><!-- /container -->
