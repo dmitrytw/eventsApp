@@ -38,5 +38,19 @@
     };
   });
 
+  app.controller('ContactformController', ['$scope', function($scope) {
+    $scope.forminfo = {};
+    $scope.message = "hello!";
+
+    $scope.submitForm = function() {
+            // check to make sure the form is completely valid
+            if ($scope.contactForm.$valid) {
+                alert('Thanks for sumbission!');
+                $scope.forminfo = {};
+            }
+
+        };
+  }]);
+
   
 })();
