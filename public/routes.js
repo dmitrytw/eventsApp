@@ -18,24 +18,24 @@ app.config(function($routeProvider){
 		})
 
 		.when('/engclubs', {
-			templateUrl: 'events.html',
+			templateUrl: 'pages/events.html',
 			controller: 'EngclubsController as eventList'
 		})
 
 		.when('/mafiaclubs', {
-			templateUrl: 'events.html',
+			templateUrl: 'pages/events.html',
 			controller: 'MafiaclubsController as eventList'
 		})
 
 		.when('/coworkings', {
-			templateUrl: 'coworkings.html',
+			templateUrl: 'pages/coworkings.html',
 			controller: 'CoworkingsController as eventList'
 		})
 
 		//contact page route
 		.when('/contact', {
 			templateUrl: 'pages/contact.html',
-			controller: 'contactController'
+			controller: 'ContactformController'
 		});
 });
 
