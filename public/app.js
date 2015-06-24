@@ -1,33 +1,51 @@
 (function() {
   var app = angular.module('eventsApp', ['eventItems-directives', 'routes-module']);
   
+  //PAGES CONTROLLERS
+  //=============================================================
+
+  //English clubs page
   app.controller('EngclubsController', ['$http', function($http){
     var eventList = this;
     eventList.eventItems = [];
-    $http.get('engclubs-info.json').success(function(data){
+    $http.get('appdata/engclubs-info.json').success(function(data){
         eventList.eventItems = data;
     });
     
   }]);
 
+  //Mafia clubs page
   app.controller('MafiaclubsController', ['$http', function($http){
     var eventList = this;
     eventList.eventItems = [];
-    $http.get('mafiaclubs-info.json').success(function(data){
+    $http.get('appdata/mafiaclubs-info.json').success(function(data){
         eventList.eventItems = data;
     });
     
   }]);
 
+  //Coworkings page
   app.controller('CoworkingsController', ['$http', function($http){
     var eventList = this;
     eventList.eventItems = [];
-    $http.get('coworkings-info.json').success(function(data){
+    $http.get('appdata/coworkings-info.json').success(function(data){
         eventList.eventItems = data;
     });
     
   }]);
 
+  // Fresh events page  
+  app.controller('FresheventsController', ['$http', function($http){
+    var eventList = this;
+    eventList.eventItems = [];
+    $http.get('appdata/freshevents-info.json').success(function(data){
+        eventList.eventItems = data;
+    });
+    
+  }]);
+
+
+  //Review form
   app.controller('ReviewController', function() {
     this.review = {};
 
@@ -38,6 +56,7 @@
     };
   });
 
+  //Contact Form Controller
   app.controller('ContactformController', ['$scope', function($scope) {
     $scope.forminfo = {};
     $scope.message = "hello!";
@@ -51,6 +70,5 @@
 
         };
   }]);
-
   
 })();
