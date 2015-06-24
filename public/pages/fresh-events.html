@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>{{header}}</h2>
+      <!--  Events Container  -->
+      <div class="list-group row clearfix">
+        <!--  Event Container  -->
+        <div class="list-group-item col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3" ng-repeat="eventItem in eventList.eventItems" ng-model="search">
+          <h3>{{eventItem.name}} <em class="pull-right">{{eventItem.price | currency: "&#8372;"}}</em></h3>
+          <h5 class="text-muted">{{eventItem.date}}</h5>
+          <h5 class="text-muted">{{eventItem.place}}</h5>
+
+          <!-- Image Gallery  -->
+          <event-gallery class="img-responsive"> </event-gallery>
+
+          <!-- Event Tabs  -->
+          <event-tabs></event-tabs> 
+        </div>
+
+      </div>
+      
+    </div>

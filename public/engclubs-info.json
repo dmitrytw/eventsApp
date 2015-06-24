@@ -1,13 +1,24 @@
 [
   {
-    "name": "Блог: инструкция для чайников",
-    "description": "Семинар для владельцев малого бизнеса, специалистов консалтинга (тренера, коучи, психологи), которые хотят увеличить видимость своего бренда.",
-    "price": 49,
-    "place": "Bibliotec smart cafe",
-    "date": "16 июня",
-    "time": "19:30",
-    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik", 
-    "images": ["img/chasopys/chassopys04.jpg"],
+    "name": "English Discussion Club",
+    "description": "English Speaking club. Every time there is one topic for discussion.",
+    "price": 0,
+    "place": "Kyiv Mohyla Academy Illynska St., 9",
+    "date": "Every Wednesday",
+    "time": "19:00",
+    "website": "https://www.facebook.com/EnglishDiscussionClub?fref=ts", 
+    "images": ["img/engclubs/english-discussion-club.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Chamber Toastmasters Club",
+    "description": "Club is helping to develop communication and leadership skills. Member of international non-profit organization.",
+    "price": 0,
+    "place": " 75 Zhylianska Str, Eurasia Business Centre, 10th Floor, PwC Office",
+    "date": "Every Wednesday",
+    "time": "19:15-20:30",
+    "website": "http://chambertoastmasters.org/",
+    "images":["img/engclubs/chamber-toastmasters-club.jpg"],
     "reviews": []
   },
   {
@@ -18,18 +29,7 @@
     "date": "Every Tuesday",
     "time": "19:00-21:00",
     "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
-    "images":["img/chasopys/chassopys02.jpg"],
-    "reviews": []
-  },
-  {
-    "name": "English Speaking CLub",
-    "description": "Our usual mix of foreigners and Ukrainians. The meeting is free and no registration is required. No fixed topic: just interesting people and interesting conversation.",
-    "price": 0,
-    "place": "Puzata Hata near Khreschatic",
-    "date": "Every Tuesday",
-    "time": "19:00-21:00",
-    "website": "http://languageexchangekyiv.ning.com/group/englishnearkreschatik",
-    "images":["img/chasopys/chassopys02.jpg"],
+    "images":["img/engclubs/english-speaking-club.png"],
     "reviews": []
   },
   {

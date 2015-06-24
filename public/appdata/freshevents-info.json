@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Make It Show Festival",
+    "description": "The festival of innivations and art. ",
+    "price": 80,
+    "place": "PlatformaArtZavod (1 Bilomorska Str.)",
+    "date": "27-28 June",
+    "time": "11:00-23:00",
+    "website": "http://makeitshow.com.ua/en/registration",
+    "images":["img/events/make-it-show-festival.png"],
+    "reviews": [{
+        "stars": 5,
+        "body": "Great! I like innivations!",
+        "author": "realgeek@example.com"
+        }]
+  },
+  {
+    "name": "Atlas Weekend",
+    "description": "Music festival.",
+    "price": 200,
+    "place": "PlatformaArtZavod",
+    "date": "11-12 July",
+    "time": "whole day",
+    "website": "http://atlasweekend.com/",
+    "images":["img/events/atlas-weekend.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Founders July",
+    "description": "Conference and networking for IT enterpreneurs and start-uppers.",
+    "price": 150,
+    "place": "Microsoft Ukraine, Jilyanska St., 75",
+    "date": "14th July",
+    "time": "18:30-22:00",
+    "website": "https://www.facebook.com/events/435284556650528/",
+    "images":["img/events/founders-july.jpg"],
+    "reviews": []
+  },
+  {
+    "name": "Ulichnaya Eda 12-th Festival",
+    "description": "Street-food Festival.",
+    "price": 40,
+    "place": "PlatformaArtZavod",
+    "date": "18 July",
+    "time": "11:00-23:00",
+    "website": "https://www.facebook.com/events/379201632288357/",
+    "images":["img/events/street-food-festival-12.jpg"],
+    "reviews": []
+  }
+]
