@@ -1,8 +1,8 @@
 {
   "version": "0.0.1",
   "private": true,
-  "name": "angular-grillStoreApp",
-  "description": "Grill store using AngularJS",
+  "name": "angular-eventsApp",
+  "description": "AngularJS EventsApp",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.11",
