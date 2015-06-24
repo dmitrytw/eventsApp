@@ -1,3 +1,4 @@
+/* Styling ng-validation classes */
 .ng-invalid.ng-dirty {
   border-color: #FA787E;
 }
@@ -5,6 +6,8 @@
 .ng-valid.ng-dirty {
   border-color: #78FA89;
 }
+
+/* Main styling */
 
 .current img {
 	max-width: 400px;
@@ -21,9 +24,39 @@
 
 .menu {
 	text-align: center;
+}
+
+.menu > li {
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #eee;
+	color: #fff;
+	border-radius: 6px;
+	min-height: 48px;
+	border: 1px solid #eee;
+	line-height: 48px;
+}
+
+.menu > li:hover, .menu > li:focus  {
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+.menu > li > a {
+	color: #888;
+	padding: 10px;
+}
+
+.menu > li > a:hover, .menu > li > a:focus {
+	color: #333;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.socials {
+	font-size: 25px;
+}
+
+.socials li {
+	margin-right: 15px;
 }
 
 footer {
@@ -31,6 +64,10 @@ footer {
 	min-height: 200px;
 	color: #fff;
 	padding-top: 100px;
+}
+
+li {
+	list-style: none;
 }
 
 @media screen and (max-width: 768px) {
