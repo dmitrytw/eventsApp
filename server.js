@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 8080));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
@@ -13,7 +13,7 @@ app.listen(app.get('port'), function() {
 });
 
 // routes-------------------
-	app.get('*', function(req, res){
-		res.sendfile('./public/index.html'); //load the single view file (angular will handle the page changed on the front-end)
+app.get('*', function(req, res){
+	res.sendfile('./public/index.html'); //load the single view file (angular will handle the page changed on the front-end)
 
-	});
+});
