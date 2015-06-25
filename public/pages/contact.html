@@ -18,55 +18,58 @@
     <form name="contactForm"  ng-submit="submitForm(contactForm.$valid)" novalidate> <!-- novalidate prevents HTML5 validation since we will be validating ourselves -->
 
         <!-- NAME -->
-        <div class="form-group" ng-submit = "submitForm()" ng-class="{ 'has-error': contactForm.username.$invalid && !contactForm.username.$pristine }"  ng>
-            <label>Your name</label>
-            <input type="text" name="username" class="form-control" ng-model="username" required/>
+        <div class="form-group" ng-class="{ 'has-error': contactForm.username.$invalid && !contactForm.username.$pristine }">
+            <label>Your name*</label>
+            <input type="text" name="username" class="form-control" placeholder="First name/Last name"ng-model="username" required/>
+            <p ng-show="contactForm.username.$invalid && !contactForm.username.$pristine" class="help-block">Enter your name. Required!</p>
         </div>
 
         <!-- EMAIL -->
         <div class="form-group" ng-class = "{ 'has-error': userForm.email.$invalid && !userForm.email.$pristine }">
-            <label>Your email</label>
-            <input type="email" name="email" class="form-control" ng-model="email">
+            <label>Your email*</label>
+            <input type="email" name="email" class="form-control" placeholder="example@gmail.com" ng-model="email">
             <p ng-show="contactForm.email.$invalid && !contactForm.email.$pristine" class="help-block">Enter a valid email.</p>
         </div>
 
 
 
         <!--Hide Event info form fields, if email field is not valid -->
-        <div ng-hide="contactForm.email.$pristine|| contactForm.email.$invalid">
-    		<h4 ng-if="contactForm.$pristine ||contactForm.email.$valid">Event info</h4>
+        <div ng-hide="contactForm.email.$pristine || contactForm.email.$invalid">
+            <h4>Event info</h4>
 
             <!-- Event -->
-            <div class="form-group" ng-submit = "submitForm()" ng-class="{ 'has-error': contactForm.username.$invalid && !contactForm.username.$pristine }"  ng>
-                <label>Event</label>
-                <input type="text" name="eventname" class="form-control" ng-model="eventname" required/>
+            <div class="form-group" ng-class="{ 'has-error': contactForm.eventname.$invalid && !contactForm.eventname.$pristine }">
+                <label>Event*</label>
+                <input type="text" name="eventname" class="form-control" placeholder="Where people should come?" ng-model="event.eventname" required/>
+                <p ng-show="contactForm.eventname.$invalid && !contactForm.eventname.$pristine" class="help-block">Enter event. Required!</p>
             </div>
 
             <!-- Place -->
-            <div class="form-group">
-                <label>Place</label>
-                <input type="text" name="name" class="form-control" ng-model="name">
+            <div class="form-group" ng-class="{ 'has-error': contactForm.place.$invalid && !contactForm.place.$pristine }" >
+                <label>Place*</label>
+                <input type="text" name="place" class="form-control" placeholder="Where people should come?" ng-model="event.place" required/>
+                <p ng-show="contactForm.place.$invalid && !contactForm.place.$pristine" class="help-block">Enter place. Required!</p>
+            </div>
+
+            <!-- Website -->
+             <div class="form-group" ng-class="{ 'has-error': contactForm.weblink.$invalid && !contactForm.weblink.$pristine }">
+                <label>Website*</label>
+                <input type="text" name="weblink" class="form-control" placeholder="Website/Social link" ng-model="event.weblink" required/>
+                <p ng-show="contactForm.weblink.$invalid && !contactForm.weblink.$pristine" class="help-block">Enter website. Required!</p>
             </div>
 
             <!-- Price -->
-            <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }" >
+            <div class="form-group" ng-class="{ 'has-error': userForm.price.$invalid && !userForm.price.$pristine }" >
                 <label>Price</label>
-                <input type="text" name="price" class="form-control" ng-model="event.price">
+                <input type="text" name="price" class="form-control" placeholder="How much does it cost?" ng-model="event.price">
               
             </div>
 
             <!-- Description -->
-            <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }" ng-hide="contactForm.email.$pristine|| contactForm.email.$invalid">
+            <div class="form-group">
                 <label>Description</label>
-                <input type="text" name="description" class="form-control" ng-model="event.description" required>
-                <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Description is required.</p>
-            </div>
-
-            <!-- Website -->
-            <div class="form-group" ng-class="{ 'has-error': userForm.name.$invalid && !userForm.name.$pristine }" >
-                <label>Website</label>
-                <input type="text" name="description" class="form-control" ng-model="website" placeholder="Write event's website/social link" required>
-                <p ng-show="contactForm.website.$invalid && !contactForm.website.$pristine" class="help-block">Website is required.</p>
+                <input type="text" name="description" class="form-control" placeholder="Write short info about your event" ng-model="event.description">
+                
             </div>
 
         </div>
