@@ -13,10 +13,6 @@
 	max-width: 400px;
 }
 
-.nav.nav-pills {
-	margin-top: 10px;
-}
-
 .list-group-item {
 	margin-top: 10px;
 	border-radius: 5px;
@@ -66,8 +62,23 @@ footer {
 	padding-top: 100px;
 }
 
-li {
+footer a {
+	color: #fff;
+}
+
+footer  a:hover, footer a:focus {
+	color: black;
+	font-weight: bold;
+}
+
+ul {
+	padding-left: 0;
 	list-style: none;
+}
+
+.nav-toggle a:hover, .site-title:hover, .site-title:focus {
+ 	color: #fff;
+ 	text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
