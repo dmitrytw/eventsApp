@@ -1,6 +1,7 @@
 "use strict";
 
 var gulp = require('gulp'),
+  autoprefixer = require('gulp-autoprefixer'),
 	livereload = require('gulp-livereload'),
 	connect = require('gulp-connect');
 
@@ -19,6 +20,10 @@ gulp.task('js', function () {
 //css
 gulp.task('css', function () {
   gulp.src('public/css/*.css')
+    .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
     .pipe(connect.reload());
 });
 
